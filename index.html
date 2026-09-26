@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Suman Bhattacharya — Developer Portfolio / SumanOS"
+    >
+
+    <title>SumanOS — Suman Bhattacharya</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         GLOBAL ENVIRONMENT
+         ===================================================== -->
+
+    <div class="site-environment">
+
+        <!-- Technical background -->
+        <div class="background-grid"></div>
+        <div class="background-glow background-glow-blue"></div>
+        <div class="background-glow background-glow-violet"></div>
+        <div class="binary-atmosphere"></div>
+
+        <!-- Future floating elements will live here -->
+        <div class="floating-debris" aria-hidden="true"></div>
+
+        <!-- Future HUD elements -->
+        <div class="system-hud" aria-hidden="true"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BOOT SCREEN
+         ===================================================== -->
+
+    <div id="boot-screen" class="boot-screen">
+
+        <div class="boot-terminal">
+
+            <div class="terminal-topbar">
+
+                <div class="terminal-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <span class="terminal-title">
+                    /boot/suman.os
+                </span>
+
+                <span class="terminal-status">
+                    SYSTEM BOOT
+                </span>
+
+            </div>
+
+
+            <div class="boot-content">
+
+                <p class="boot-line">
+                    <span class="prompt">&gt;</span>
+                    initializing SumanOS...
+                </p>
+
+                <p class="boot-line">
+                    <span class="ok">[ OK ]</span>
+                    loading developer_profile
+                </p>
+
+                <p class="boot-line">
+                    <span class="ok">[ OK ]</span>
+                    mounting /projects
+                </p>
+
+                <p class="boot-line">
+                    <span class="ok">[ OK ]</span>
+                    loading curiosity_engine
+                </p>
+
+                <p class="boot-line">
+                    <span class="ok">[ OK ]</span>
+                    starting questionable_ideas.service
+                </p>
+
+                <p class="boot-line">
+                    <span class="fail">[FAIL]</span>
+                    sleep_schedule.service
+                </p>
+
+                <p class="boot-line">
+                    <span class="prompt">&gt;</span>
+                    gcc landed_on_earth.c
+                </p>
+
+                <p class="boot-line">
+                    <span class="prompt">&gt;</span>
+                    ./landed_on_earth
+                </p>
+
+
+                <div class="boot-loader">
+                    <div class="boot-loader-bar"></div>
+                </div>
+
+                <p class="boot-message">
+                    system ready.
+                </p>
+
+                <button
+                    id="enter-system"
+                    class="boot-button"
+                    type="button"
+                >
+                    [ ENTER SYSTEM ]
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN APPLICATION
+         ===================================================== -->
+
+    <div class="page" id="app">
+
+        <!-- =================================================
+             NAVIGATION
+             ================================================= -->
+
+        <header class="navbar">
+
+            <div class="nav-inner">
+
+                <a
+                    href="#home"
+                    class="nav-logo"
+                    id="system-logo"
+                >
+                    <span class="logo-symbol">&gt;_</span>
+                    <span>SUMAN.OS</span>
+                </a>
+
+
+                <nav class="nav-links">
+
+                    <a href="#home">~/suman</a>
+                    <a href="#about">about</a>
+                    <a href="#timeline">timeline</a>
+                    <a href="#skills">skills</a>
+                    <a href="#projects">projects</a>
+                    <a href="#future">future</a>
+                    <a href="#contact">contact</a>
+
+                </nav>
+
+
+                <div class="nav-system-status">
+
+                    <span class="status-dot"></span>
+
+                    <span>
+                        SYSTEM ONLINE
+                    </span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- =================================================
+             MAIN CONTENT
+             ================================================= -->
+
+        <main>
+
+            <!-- =============================================
+                 HERO / WHOAMI
+                 ============================================= -->
+
+            <section
+                id="home"
+                class="hero section"
+            >
+
+                <div class="hero-background-code" aria-hidden="true">
+                    01001001<br>
+                    01101110<br>
+                    01101001<br>
+                    01110100<br>
+                    00101110
+                </div>
+
+
+                <div class="hero-content">
+
+                    <div class="terminal-label">
+                        <span class="terminal-prompt">&gt;</span>
+                        whoami
+                    </div>
+
+
+                    <div class="hero-system-tag">
+                        <span class="status-dot"></span>
+                        DEVELOPER PROFILE LOADED
+                    </div>
+
+
+                    <h1>
+                        SUMAN
+                        <span>BHATTACHARYA</span>
+                    </h1>
+
+
+                    <p class="hero-description">
+                        A student who somehow turned curiosity,
+                        late-night debugging and random ideas
+                        into a developer journey.
+                    </p>
+
+
+                    <div class="hero-command">
+                        <span>&gt;</span>
+                        ./explore_life
+                        <span class="cursor">_</span>
+                    </div>
+
+
+                    <div class="hero-meta">
+
+                        <span>
+                            <strong>LOCATION</strong>
+                            KHARAGPUR, INDIA
+                        </span>
+
+                        <span>
+                            <strong>STATUS</strong>
+                            LEARNING
+                        </span>
+
+                        <span>
+                            <strong>BUILD</strong>
+                            2026.dev
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-system-info">
+
+                    <div>
+                        <span>SYS_ID</span>
+                        <strong>SUMAN-0x01</strong>
+                    </div>
+
+                    <div>
+                        <span>UPTIME</span>
+                        <strong>∞ DAYS</strong>
+                    </div>
+
+                    <div>
+                        <span>VERSION</span>
+                        <strong>0.26.09</strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 ABOUT
+                 ============================================= -->
+
+            <section
+                id="about"
+                class="section about-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        01
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            cat /about/developer.c
+                        </span>
+
+                        <h2>
+                            About the developer
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="code-window">
+
+                    <div class="window-header">
+
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span class="window-file">
+                            developer.c
+                        </span>
+
+                        <span class="window-status">
+                            UTF-8
+                        </span>
+
+                    </div>
+
+
+                    <div class="code-content">
+
+<pre><code><span class="code-keyword">#include</span> &lt;curiosity.h&gt;
+
+<span class="code-keyword">int</span> main() {
+
+    <span class="code-keyword">char</span> *name =
+        <span class="code-string">"Suman Bhattacharya"</span>;
+
+    <span class="code-keyword">char</span> *current_state =
+        <span class="code-string">"learning + building"</span>;
+
+    <span class="code-keyword">while</span> (curious) {
+
+        learn();
+        build();
+        break_things();
+        fix_them();
+        repeat();
+
+    }
+
+    <span class="code-comment">// somehow this became a career plan.</span>
+
+    <span class="code-keyword">return</span> <span class="code-number">0</span>;
+}</code></pre>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 TIMELINE
+                 ============================================= -->
+
+            <section
+                id="timeline"
+                class="section timeline-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        02
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            git log --life
+                        </span>
+
+                        <h2>
+                            Life timeline
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            2008
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-type">
+                                BOOT
+                            </span>
+
+                            <h3>
+                                System initialized
+                            </h3>
+
+                            <p>
+                                Suman enters the world.
+                                The debugging begins later.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            2018
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-type">
+                                DISCOVERY
+                            </span>
+
+                            <h3>
+                                First encounters with technology
+                            </h3>
+
+                            <p>
+                                Computers slowly become more
+                                interesting than they probably should.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            2023
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-type">
+                                START
+                            </span>
+
+                            <h3>
+                                Started coding seriously
+                            </h3>
+
+                            <p>
+                                HTML, CSS, JavaScript and the
+                                wonderful world of broken code.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            2024
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-type">
+                                BUILD
+                            </span>
+
+                            <h3>
+                                Projects started appearing
+                            </h3>
+
+                            <p>
+                                Clones, experiments, Python projects,
+                                games and increasingly ambitious ideas.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker">
+                            2025
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-type">
+                                EXPAND
+                            </span>
+
+                            <h3>
+                                DSA + Web + AI
+                            </h3>
+
+                            <p>
+                                Started connecting different areas
+                                of development instead of learning
+                                everything separately.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-marker active">
+                            2026
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-type">
+                                CURRENT BUILD
+                            </span>
+
+                            <h3>
+                                Building the next version
+                            </h3>
+
+                            <p>
+                                DSA, React, backend development,
+                                AI/ML, open source and bigger projects.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 SKILLS
+                 ============================================= -->
+
+            <section
+                id="skills"
+                class="section skills-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        03
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            ./skills --scan
+                        </span>
+
+                        <h2>
+                            Skill tree
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <!-- Languages -->
+
+                    <div class="skill-group">
+
+                        <div class="skill-group-header">
+                            <span class="skill-icon">
+                                &lt;/&gt;
+                            </span>
+
+                            <h3>
+                                Languages
+                            </h3>
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 80%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>72%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 72%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>HTML / CSS</span>
+                                <span>90%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 90%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Web -->
+
+                    <div class="skill-group">
+
+                        <div class="skill-group-header">
+
+                            <span class="skill-icon">
+                                &lt;web&gt;
+                            </span>
+
+                            <h3>
+                                Web
+                            </h3>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>55%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 55%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>45%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 45%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>Git / GitHub</span>
+                                <span>75%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 75%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Tools -->
+
+                    <div class="skill-group">
+
+                        <div class="skill-group-header">
+
+                            <span class="skill-icon">
+                                [SYS]
+                            </span>
+
+                            <h3>
+                                Tools
+                            </h3>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>VS Code</span>
+                                <span>90%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 90%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span>50%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 50%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill">
+
+                            <div class="skill-info">
+                                <span>Linux / Terminal</span>
+                                <span>65%</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <span
+                                    class="skill-fill"
+                                    style="width: 65%"
+                                ></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 PROJECTS
+                 ============================================= -->
+
+            <section
+                id="projects"
+                class="section projects-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        04
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            ls -la /projects
+                        </span>
+
+                        <h2>
+                            Things I built
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- WeatherGPT -->
+
+                    <article class="project-card">
+
+                        <div class="project-card-top">
+
+                            <span class="project-id">
+                                PROJECT_001
+                            </span>
+
+                            <span class="project-status">
+                                ACTIVE
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ☁
+                        </div>
+
+
+                        <h3>
+                            WeatherGPT
+                        </h3>
+
+
+                        <p>
+                            Conversational AI weather platform
+                            designed around forecasts, alerts,
+                            climate information and location-based
+                            advisories.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>AI</span>
+                            <span>LLM</span>
+                            <span>GIS</span>
+                            <span>API</span>
+                            <span>React</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- JEE PYQs -->
+
+                    <article class="project-card">
+
+                        <div class="project-card-top">
+
+                            <span class="project-id">
+                                PROJECT_002
+                            </span>
+
+                            <span class="project-status">
+                                BUILT
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            &lt;/&gt;
+                        </div>
+
+
+                        <h3>
+                            JEE PYQs
+                        </h3>
+
+
+                        <p>
+                            Practice platform for JEE questions
+                            with scoring, navigation, test sets
+                            and performance tracking.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>JSON</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Amazon Clone -->
+
+                    <article class="project-card">
+
+                        <div class="project-card-top">
+
+                            <span class="project-id">
+                                PROJECT_003
+                            </span>
+
+                            <span class="project-status">
+                                BUILT
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            $
+                        </div>
+
+
+                        <h3>
+                            Amazon Clone
+                        </h3>
+
+
+                        <p>
+                            Frontend recreation built to understand
+                            layouts, components, responsive design
+                            and real-world UI patterns.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>UI</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Roblox -->
+
+                    <article class="project-card">
+
+                        <div class="project-card-top">
+
+                            <span class="project-id">
+                                PROJECT_004
+                            </span>
+
+                            <span class="project-status">
+                                EXPERIMENT
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-icon">
+                            ⚡
+                        </div>
+
+
+                        <h3>
+                            Roblox Projects
+                        </h3>
+
+
+                        <p>
+                            Obby games, zombie fighting experiments
+                            and other attempts at turning random
+                            ideas into playable things.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>ROBLOX</span>
+                            <span>LUA</span>
+                            <span>GAME DEV</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 GIT HISTORY
+                 ============================================= -->
+
+            <section
+                class="section git-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        05
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            git log --oneline
+                        </span>
+
+                        <h2>
+                            Commit history
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="git-terminal">
+
+                    <div class="git-line">
+                        <span class="git-hash">a91f2c7</span>
+                        <span>started building instead of watching tutorials</span>
+                    </div>
+
+                    <div class="git-line">
+                        <span class="git-hash">7d81b44</span>
+                        <span>built first serious frontend project</span>
+                    </div>
+
+                    <div class="git-line">
+                        <span class="git-hash">b20e912</span>
+                        <span>added Python to the toolbox</span>
+                    </div>
+
+                    <div class="git-line">
+                        <span class="git-hash">c91f8a2</span>
+                        <span>entered the DSA arc</span>
+                    </div>
+
+                    <div class="git-line">
+                        <span class="git-hash">e74a331</span>
+                        <span>started building WeatherGPT</span>
+                    </div>
+
+                    <div class="git-line current">
+                        <span class="git-hash">HEAD</span>
+                        <span>still figuring everything out...</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 CURRENT PROCESSES
+                 ============================================= -->
+
+            <section
+                class="section processes-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        06
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            ps aux --current
+                        </span>
+
+                        <h2>
+                            Current processes
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="process-list">
+
+                    <div class="process">
+
+                        <div class="process-info">
+
+                            <span>
+                                DSA
+                            </span>
+
+                            <span>
+                                RUNNING
+                            </span>
+
+                        </div>
+
+                        <div class="process-bar">
+                            <span
+                                style="width: 65%"
+                            ></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process">
+
+                        <div class="process-info">
+
+                            <span>
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <span>
+                                RUNNING
+                            </span>
+
+                        </div>
+
+                        <div class="process-bar">
+                            <span
+                                style="width: 80%"
+                            ></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process">
+
+                        <div class="process-info">
+
+                            <span>
+                                REACT / NODE
+                            </span>
+
+                            <span>
+                                LOADING
+                            </span>
+
+                        </div>
+
+                        <div class="process-bar">
+                            <span
+                                style="width: 45%"
+                            ></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process">
+
+                        <div class="process-info">
+
+                            <span>
+                                AI / ML
+                            </span>
+
+                            <span>
+                                EXPLORING
+                            </span>
+
+                        </div>
+
+                        <div class="process-bar">
+                            <span
+                                style="width: 35%"
+                            ></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process">
+
+                        <div class="process-info">
+
+                            <span>
+                                OPEN SOURCE
+                            </span>
+
+                            <span>
+                                INITIALIZING
+                            </span>
+
+                        </div>
+
+                        <div class="process-bar">
+                            <span
+                                style="width: 25%"
+                            ></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process process-danger">
+
+                        <div class="process-info">
+
+                            <span>
+                                SLEEP
+                            </span>
+
+                            <span>
+                                CRITICAL
+                            </span>
+
+                        </div>
+
+                        <div class="process-bar">
+                            <span
+                                style="width: 12%"
+                            ></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 EXPERIMENTS
+                 ============================================= -->
+
+            <section
+                class="section experiments-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        07
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            find /experiments -type f
+                        </span>
+
+                        <h2>
+                            Experimental filesystem
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="file-system">
+
+                    <div class="file">
+                        <span>📁</span>
+                        <span>random_ideas/</span>
+                    </div>
+
+                    <div class="file">
+                        <span>📁</span>
+                        <span>late_night_projects/</span>
+                    </div>
+
+                    <div class="file">
+                        <span>📁</span>
+                        <span>things_that_should_work/</span>
+                    </div>
+
+                    <div class="file">
+                        <span>📄</span>
+                        <span>unfinished_projects.md</span>
+                    </div>
+
+                    <div class="file">
+                        <span>📄</span>
+                        <span>why_is_this_broken.txt</span>
+                    </div>
+
+                    <div class="file">
+                        <span>📄</span>
+                        <span>ideas_at_3am.log</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 FUTURE
+                 ============================================= -->
+
+            <section
+                id="future"
+                class="section future-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        08
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            cat /future/roadmap
+                        </span>
+
+                        <h2>
+                            What's next
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="future-terminal">
+
+                    <div class="future-item completed">
+                        <span>[✓]</span>
+                        <span>Learn the fundamentals</span>
+                    </div>
+
+                    <div class="future-item completed">
+                        <span>[✓]</span>
+                        <span>Build real projects</span>
+                    </div>
+
+                    <div class="future-item">
+                        <span>[ ]</span>
+                        <span>Master DSA</span>
+                    </div>
+
+                    <div class="future-item">
+                        <span>[ ]</span>
+                        <span>Become comfortable with React</span>
+                    </div>
+
+                    <div class="future-item">
+                        <span>[ ]</span>
+                        <span>Build full-stack applications</span>
+                    </div>
+
+                    <div class="future-item">
+                        <span>[ ]</span>
+                        <span>Explore AI / ML seriously</span>
+                    </div>
+
+                    <div class="future-item">
+                        <span>[ ]</span>
+                        <span>Contribute to open source</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 CONTACT
+                 ============================================= -->
+
+            <section
+                id="contact"
+                class="section contact-section"
+            >
+
+                <div class="section-heading">
+
+                    <span class="section-index">
+                        09
+                    </span>
+
+                    <div>
+                        <span class="section-command">
+                            ./connect
+                        </span>
+
+                        <h2>
+                            Establish connection
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <a
+                        href="#"
+                        class="contact-card"
+                    >
+
+                        <span class="contact-icon">
+                            GH
+                        </span>
+
+                        <span>
+                            <small>PROTOCOL</small>
+                            GitHub
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="contact-card"
+                    >
+
+                        <span class="contact-icon">
+                            IN
+                        </span>
+
+                        <span>
+                            <small>PROTOCOL</small>
+                            LinkedIn
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="mailto:"
+                        class="contact-card"
+                    >
+
+                        <span class="contact-icon">
+                            @
+                        </span>
+
+                        <span>
+                            <small>PROTOCOL</small>
+                            Email
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- =============================================
+                 FINAL TERMINAL
+                 ============================================= -->
+
+            <section
+                class="final-terminal-section"
+            >
+
+                <div class="interactive-terminal">
+
+                    <div class="terminal-topbar">
+
+                        <div class="terminal-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span class="terminal-title">
+                            suman@life:~
+                        </span>
+
+                        <span class="terminal-status">
+                            bash
+                        </span>
+
+                    </div>
+
+
+                    <div class="terminal-body">
+
+                        <p>
+                            <span class="terminal-prompt">
+                                suman@life:~$
+                            </span>
+
+                            echo "still building..."
+                        </p>
+
+                        <p class="terminal-output">
+                            still building...
+                        </p>
+
+                        <p>
+                            <span class="terminal-prompt">
+                                suman@life:~$
+                            </span>
+
+                            <span class="terminal-cursor">
+                                _
+                            </span>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- =================================================
+             FOOTER
+             ================================================= -->
+
+        <footer class="footer">
+
+            <div class="footer-left">
+                <span>&gt;_</span>
+                SUMAN.OS
+            </div>
+
+
+            <div class="footer-center">
+                <span class="status-dot"></span>
+                SYSTEM ONLINE
+            </div>
+
+
+            <div class="footer-right">
+                © <span id="current-year"></span>
+                Suman Bhattacharya
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
